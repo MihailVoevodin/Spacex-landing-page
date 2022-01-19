@@ -127,13 +127,26 @@
                 For additional questions, contact
                 <a href="#" class="footer__mail-link">rideshare@spacex.com</a>
             </div>
-            <a href="#" class="footer__btn">
+            <button data-modal href="#" class="footer__btn">
                 Contact us 
-            </a>
+            </button>
         </div>
     </footer>
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div data-close class="modal__close">×</div>
+                    <div class="modal__title">We will call you!</div>
+                    <input class="modal__input" placeholder="Your name" type="text">
+                    <input class="modal__input" placeholder="Your phone" type="phone">
+                    <button class="modal__btn">Call me</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
