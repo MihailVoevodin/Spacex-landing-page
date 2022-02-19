@@ -4,64 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
     <title>SpaceX</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="header__inner">
-            <a href="#" class="logo">
-                <img src="./images/logo.png" alt="SpaceX">
-            </a>
-            <nav class="rockets">
-                <ul>
-                    <li class="rockets__list-item">
-                        <a href="#" class="rockets__list-link">Falcon 9</a>
-                    </li>
-                    <li class="rockets__list-item">
-                        <a href="#" class="rockets__list-link">Falcon Heavy</a>
-                    </li>
-                    <li class="rockets__list-item">
-                        <a href="#" class="rockets__list-link">Dragon</a>
-                    </li>
-                    <li class="rockets__list-item">
-                        <a href="#" class="rockets__list-link">Updates</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav class="menu">
-                <ul>
-                    <li class="menu__list-item">
-                        <a href="" class="menu__list-link">About</a>
-                    </li>
-                    <li class="menu__list-item">
-                        <a href="" class="menu__list-link">Gallery</a>
-                    </li>
-                    <li class="menu__list-item">
-                        <a href="" class="menu__list-link">Shop</a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">
+                    <img src="img/logo.png" alt="SpaceX">
+                </a>
+                <nav class="rockets">
+                    <ul>
+                        <li class="rockets__list-item">
+                            <a href="#" class="rockets__list-link">Falcon 9</a>
+                        </li>
+                        <li class="rockets__list-item">
+                            <a href="#" class="rockets__list-link">Falcon Heavy</a>
+                        </li>
+                        <li class="rockets__list-item">
+                            <a href="#" class="rockets__list-link">Dragon</a>
+                        </li>
+                        <li class="rockets__list-item">
+                            <a href="#" class="rockets__list-link">Updates</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="menu">
+                    <ul>
+                        <li class="menu__list-item">
+                            <a href="" class="menu__list-link">About</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="" class="menu__list-link">Gallery</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="" class="menu__list-link">Shop</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
     <section class="top">
-        <h1 class="top__title">
-            Falcon Heavy
-        </h1>
-        <div class="top__content">
-            the most powerful operational rocket
-            in the world by a factor of two
-        </div>
-        <div class="top__img">
-            <img src="./images/earth.png" alt="Earth">
+        <div class="container">
+            <h1 class="top__title">
+                Falcon Heavy
+            </h1>
+            <div class="top__content">
+                the most powerful operational rocket
+                in the world by a factor of two
+            </div>
+            <div class="top__img">
+                <img src="img/earth.png" alt="Earth">
+            </div>
         </div>
     </section>
 
     <section class="main">
+        <div class="container">
         <div class="main__inner">
             <div class="main__content">
                 <div class="main__overview">
@@ -101,35 +106,38 @@
                     </div>
                 </div>
             </div>
-            <div class="main__img">
-                <img src="./images/rocket.png" alt="Rocket">
-            </div>
+            <!-- <div class="main__img">
+                <img src="img/rocket.png" alt="Rocket">
+            </div> -->
         </div>
+    </div>
     </section>
 
     <footer class="footer">
-        <div class="footer__inner">
-            <a href="#" class="footer__logo">
-                <img src="./images/logo.png" alt="SpaceX">
-            </a>
-            <div class="footer__social">
-                <ul class="footer__social-list">
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Youtube</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Flickr</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Policy</a></li>
-                </ul>
+        <div class="container">
+            <div class="footer__inner">
+                <a href="#" class="footer__logo">
+                    <img src="img/logo.png" alt="SpaceX">
+                </a>
+                <div class="footer__social">
+                    <ul class="footer__social-list">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Flickr</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer__mail">
+                    For additional questions, contact
+                    <a href="#" class="footer__mail-link">rideshare@spacex.com</a>
+                </div>
+                <button data-modal href="#" class="footer__btn">
+                    Contact us 
+                </button>
             </div>
-            <div class="footer__mail">
-                For additional questions, contact
-                <a href="#" class="footer__mail-link">rideshare@spacex.com</a>
-            </div>
-            <button data-modal href="#" class="footer__btn">
-                Contact us 
-            </button>
         </div>
     </footer>
     <div class="modal">

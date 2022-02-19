@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
     
     
-    const modalTimer = setTimeout(openModal, 10000);
+    const modalTimer = setTimeout(openModal, 100000000000);
     
     function closeModal() {
         const modal = document.querySelector('.modal');
@@ -41,12 +41,8 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        
-
     }
 
-
     modal();
-
 
 });
